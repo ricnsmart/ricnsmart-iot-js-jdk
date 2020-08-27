@@ -1,0 +1,23 @@
+{
+  "name": "ricnsmart-iot-js-jdk",
+  "version": "1.0.0",
+  "description": "javascript SDK for RICNSmart IOT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricnsmart/ricnsmart-iot-js-jdk.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
