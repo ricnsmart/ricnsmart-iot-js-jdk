@@ -1,11 +1,11 @@
 {
   "name": "ricnsmart-iot-js-jdk",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "javascript SDK for RICNSmart IOT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ricnsmart/ricnsmart-iot-js-jdk.git"
+    "url": "https://github.com/ricnsmart/ricnsmart-iot-js-jdk.git"
   },
   "scripts": {
     "test": "jest"
