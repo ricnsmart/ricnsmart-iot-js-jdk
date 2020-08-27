@@ -7,12 +7,14 @@
     "type": "git",
     "url": "https://github.com/ricnsmart/ricnsmart-iot-js-jdk.git"
   },
+  "homepage": "https://github.com/ricnsmart/ricnsmart-iot-js-jdk.git",
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ricnsmart","iot","HmacSHA1","base64"],
+  "author": "voson wang",
+  "email": "i@voson.me",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
     "crypto-js": "^4.0.0"
