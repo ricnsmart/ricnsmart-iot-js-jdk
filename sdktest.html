@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./dist/ricnsmart-iot-js-sdk.min.js"></script>
+</head>
+<body>
+<div>
+    <h1>F12在控制台查看log</h1>
+</div>
+<script>
+    const accessKey = "XH3yWTwtoUuVoYcZc08gMkrX"
+    const accessKeySecret = "9H0lIwNbhQ0KaS3q6kGNutIUHBFf4JJq"
+    const method = "sha1"
+    const version = "2018-10-31"
+    const organizationId = 1
+    RICNSmartApi.Init(accessKey, accessKeySecret, method, version)
+    RICNSmartApi.GetOrganization(organizationId).then(res=>{
+        console.log(res)
+    },error=>{
+        console.log(error)
+    })
+</script>
+</body>
+</html>
