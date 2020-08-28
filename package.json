@@ -1,6 +1,6 @@
 {
   "name": "ricnsmart-iot-js-jdk",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "javascript SDK for RICNSmart IOT",
   "main": "index.js",
   "repository": {
